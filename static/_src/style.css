@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(199, 199, 199);
+    margin: auto;
+}
+
+div#interface {
+    width: 900px;
+    margin: 0px auto 0px auto;
+    position: static;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 174, 0);
+    position: static;
+    text-align: center;
+}
+
+.titulo {
+    display: flex;
+    position: relative;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog {
+    color: white;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 38px;
+    top: 10px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    align-items: center;
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    top: 10px;
+    color: white;
+}
+
+div#left {
+    display: flex;
+}
+
+div#right {
+    display: flex;
+}
+
+div#post1 {
+    background-color: white;
+    margin: 10px;
+    width: 650px;
+    padding: 10px 0px;
+}
+div#post2 {
+    background-color: white;
+    margin: 10px;
+    width: 640px;
+    padding: 10px 0px;
+}
+
+img#foto1 {
+    width: 600px;
+}
+
+img#foto2 {
+    width: 600px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(255, 174, 0);
+    text-align: left;
+    position: relative;
+    left: 25px;
+    padding: 5px 0px;
+}
+
+p#texto {
+    text-align: left;
+    left: 25px;
+    position: relative;
+    width: 590px;
+    text-align: justify;
+    padding: 5px 0px;
+}
+
+p#leia {
+    color: rgb(255, 174, 0);
+    text-align: left;
+    left: 25px;
+    position: relative;
+}
+
+p#rec {
+    background-color: rgb(199, 199, 199);
+    color: rgb(56, 56, 56);
+    padding: 3px;
+    font-weight: bold;
+}
+
+p#text2 {
+    text-align: justify;
+    left: 5px;
+    position: relative;
+    width: 180px;
+    padding: 5px 0px;   
+}
+
+p#leia2 {
+    position: relative;
+    left: 5px;
+    color: rgb(255, 174, 0);
+
+}
+
+div#recentes {
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    height: 190px;
+    text-align: left;
+}
+
+div#categorias {
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    height: 110px;
+    text-align: left;
+}
+
+ul#cats {
+    position: relative;
+    list-style: none;
+    display: grid;
+    height: 80px;
+    left: -2px;
+}
+
+li#cat {
+    color: rgb(255, 174, 0);
+    position: relative;
+    margin: -15px 0px;
+}
+
+h4 {
+    background-color: rgb(255, 174, 0);
+    padding: 10px;
+    width: 900px;
+    margin: 5px;
+    font-weight: bold;
+}
