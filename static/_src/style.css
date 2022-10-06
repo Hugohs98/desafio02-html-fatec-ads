@@ -35,7 +35,7 @@ header {
 
 h1 {
     font-family: 'Roboto';
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 38px;
     top: 10px;
     position: relative;
